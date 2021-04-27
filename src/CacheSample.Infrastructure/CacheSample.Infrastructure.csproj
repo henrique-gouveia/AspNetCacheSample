@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.5" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.5" />
+	  <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CacheSample.Domain\CacheSample.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
