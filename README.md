@@ -1,2 +1,3 @@
 # AspNetCacheSample
-AspNet Web Api using Memory and Redis Cache
+
+Asp .Net 5 Web Api using Memory and Redis Cache
